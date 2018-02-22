@@ -68,7 +68,7 @@ margin-top: 25px;
 .container {
 	width: 700px;
 	border: 1px solid #000;
-	margin: 20px;
+	padding: 40px;
 	}
 	.callout-blue {
     max-width:500px;
@@ -94,6 +94,226 @@ text-decoration:none;
 .callout-description {
 color: #666666;
 font-family: arial;
+}
+.primary-button {
+    background-color: #666699; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.primary-button:hover {
+background-color: #8686c9;
+}
+.yellow-alert {
+  background-color: #f1f1f1;
+  background-position: 2rem 2rem;
+  background-repeat: no-repeat;
+  background-size: 5.2rem;
+  padding-bottom: 1.4rem;
+  padding-left: 3rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  position: relative;
+}
+.yellow-alert::before {
+  background-color: #8b8b8b;
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1rem;
+}
+.yellow-alert a {
+  color: #205493;
+}
+.yellow-alert a:focus, .yellow-alert a:hover {
+  color: #112e51;
+}
+.yellow-alert ul {
+  margin-bottom: 0;
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+.yellow-alert-icon {
+  display: table-cell;
+  padding-right: 1rem;
+}
+.yellow-alert-body {
+  display: table-cell;
+  padding-left: 5rem;
+  vertical-align: top;
+}
+.yellow-alert-heading {
+  margin-top: 0;
+  margin-bottom: 5;
+}
+.yellow-alert-text {
+  font-family: "Arial", sans-serif;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.yellow-alert-warning {
+  background-color: #fff1d2;
+  background-image: url("#");
+  background-image: url("#");
+}
+.yellow-alert-warning::before {
+  background-color: #fdb81e;
+}
+.link-list-group {
+    float: left;
+    width: 32.6%;
+    padding: 10px;
+    margin:5px;
+    background-color: #f5f5f5;
+  display: inline-block;
+}
+.link-list-group a {
+  text-decoration: none;
+}
+.title-text {
+  color: #277ca5;
+  font-size: 20px;
+}
+.link-list-row-3:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (max-width: 600px) {
+    .link-list-group {
+        width: 100%;
+    }
+}
+.list-link-group img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.img-icon {
+  width: 25px;
+  padding-left: 10px;
+}
+	.red-bar {
+  background-color: #cc0033;
+  margin:0;
+  width: 100%;
+  min-height: 20px;
+}
+.report-column {
+    float: left;
+    width: 50%;
+}
+.report-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.report-col {
+  width:100%;
+  background-color: #f5f5f5;
+  padding: 25px;
+}
+.report-column a {
+  text-decoration: none;
+}
+.report-title {
+  color: #000000;
+  font-size: 20px;
+  font-family: "arial";
+  text-transform: uppercase;
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .report-column {
+        width: 100%;
+    }
+}
+.report-col img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.img-icon {
+  width: 25px;
+  padding-left: 10px;
+}
+.info-steps-wrapper { 
+  overflow:hidden;
+  border-bottom: 1px solid #e5efff;
+}
+.col-wrapper div {
+   min-height: 200px;
+   padding: 10px;
+}
+.left-step {
+  float:left; 
+  margin-right:20px;
+  width:150px;
+}
+.step-info { 
+  overflow:hidden;
+  min-height:170px;
+  display:flex;
+  align-items:center;
+}
+@media screen and (max-width: 400px) {
+   .left-step { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+  }
+}
+.left-step img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.img-col {
+  width: 200px;
+}
+.title-step {
+  font-family: "arial";
+  font-size: 20px;
+  color: #277ca5
+}
+	.col-callout-wrapper { 
+  overflow:hidden;
+}
+.col-callout-wrapper div {
+   min-height: 200px;
+   padding: 10px;
+}
+.left-callout-col {
+  float:left; 
+  margin-right:20px;
+  width:150px;
+}
+.right-callout-col { 
+  overflow:hidden;
+  min-height:170px;
+}
+@media screen and (max-width: 400px) {
+   .left-col { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+  }
+}
+.left-callout-col img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.img-col {
+  width: 200px;
 }
 </style>
 <body>
@@ -167,8 +387,69 @@ font-family: arial;
     </a>
 </div>
 <br><br>
-	
-	
-	
+	<h2> Primary Button</h2>	<br>
+	<a class="primary-button" href="#">Button</a>
+
+<br><br>
+	<h2> Yellow Alert </h2>
+	<br>
+	<div class="yellow-alert yellow-alert-warning" >
+  <div class="yellow-alert-body"><h3 class="yellow-alert-heading">Warning Status</h3><p class="yellow-alert-text">Lorem ipsum dolor sit amet, elit, sed do eiusmod.</p>
+  </div>
+</div>
+<br><br>
+	<h2> Link List Grouping 3 Column </h2>
+	<br>
+	<div class="link-list-row-3">
+  <div class="link-list-group">
+   <h3 class="title-text">Categroy Title</h3>
+      Link <img class="img-icon" src="#">
+  </div>
+  <div class="link-list-group">
+   <h3 class="title-text">Categroy Title</h3>
+      Link <img class="img-icon" src="#">
+  </div>
+  <div class="link-list-group">
+   <h3 class="title-text">Categroy Title</h3>
+      Link <img class="img-icon" src="#">
+  </div>
+</div>
+<br><br>
+	<h2> Report a Concern </h2><br>
+	<div class="red-bar"> 
+</div>  
+  <div class="report-col">
+    <h3 class="report-title">Title</h3>
+  <div class="report-row">
+  <div class="report-column">
+    <p>Link <img class="img-icon" src="#"></p>
+    <p>Link <img class="img-icon" src="#"></p>
+  </div>
+  <div class="report-column">
+    <p>Link <img class="img-icon" src="#"></p>
+  </div>
+</div>
+</div>
+<br><br>
+	<h2> Steps Listing </h2>
+	<br>
+	<div class="info-steps-wrapper">
+    <div class="left-step">
+         <img class="img-col" src="#">
+    </div>
+    <div class="step-info">
+      <span><h3 class="title-step"> Title </h3>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non libero id augue </span>
+    </div>
+</div>
+<br><br>
+	<h2> Callout with Image </h2>
+	<div class="col-callout-wrapper">
+    <div class="left-callout-col">
+         <img class="img-callout-col" src="#">
+    </div>
+    <div class="right-callout-col">
+    </div>
+</div>
 </div>
 </body>
