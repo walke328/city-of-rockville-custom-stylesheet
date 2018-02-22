@@ -1,0 +1,127 @@
+<style>
+.link-list {
+    max-width:500px;
+    margin: 0 0 10px 0;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+.link-list:hover {
+background-color: #d3d3d3;
+}
+.link-list a {
+text-decoration:none;
+}
+.link-title {
+	color: #277ca5;
+    font-weight: bold;
+    font-size: 1.2em;
+    display: block;
+    border-bottom: 1px solid #bdbdbd;
+    border-bottom-style: dashed;
+    padding: 0px 0px 10px 0px;
+    margin: 0px 0px 15px 0px;
+    font-family: arial;
+}
+.link-description {
+color: #666666;
+font-family: arial;
+}
+
+.info-wrapper { 
+  overflow:hidden;
+  border-bottom: 1px solid #ccc;
+}
+#main-info {
+  float:left; 
+  margin-right:20px;
+  width:400px;
+  margin-bottom:20px;
+}
+#contact { 
+  overflow:hidden;
+  margin-bottom: 10px;
+  min-width:150px;
+}
+.contact-row {
+overflow:hidden;
+display: table;
+margin-bottom:15px;
+}
+.contact-icon {
+float: left;
+padding-right:20px;
+}
+.title {
+text-align:left;
+padding-top: 30px;
+padding-bottom: 15px;
+border-bottom: 1px solid #ccc;
+text-transform: uppercase;
+}
+.contact-container {
+margin-top: 25px;
+}
+.contact-items, .contact-items {
+    display: table-cell;
+    vertical-align: middle; 
+}
+
+</style>
+<body>
+<h2> Link List </h2>
+<div class="link-list">
+	<a href="#">
+    	<div class="link-title">
+        Title
+        </div>
+        <div class="link-description">
+        This is a short description. 
+        </div>
+    </a>
+</div>
+<br>
+<br>
+<h2> Introduction with Contact </h2>
+<div class="info-wrapper">
+    <div id="main-info">
+	</div>
+    <div id="contact">
+    	Still have questions? Contact:
+        <div class="title"> Title </div>
+                <div class="contact-container">
+					<div class="contact-row">
+        				<div class="contact-icon">
+            				<img style="width:35px" src="https://png.icons8.com/metro/1600/phone.png">
+            			</div>
+                		<div class="contact-items">
+            				xxx-xxx-xxxx
+            			</div>
+        			</div>
+        			<div class="contact-row">
+        				<div class="contact-icon">
+            				<img style="width:35px" src="https://png.icons8.com/metro/1600/phone.png">
+            			</div>
+            			<div class="contact-items">
+            				Email
+            			</div>
+        			</div>  
+					<div class="contact-row">
+        				<div class="contact-icon">
+            				<img style="width:35px" src="https://png.icons8.com/metro/1600/phone.png">
+            			</div>
+            			<div class="contact-items">
+            				Address
+            			</div>
+       			 	</div>   
+					<div class="contact-row">
+        				<div class="contact-icon">
+            				<img style="width:35px" src="https://png.icons8.com/metro/1600/phone.png">
+            			</div>
+            			<div class="contact-items">
+            				Hours
+            			</div>
+        			</div>           
+    			</div>
+	</div>
+</div>
+</body>
