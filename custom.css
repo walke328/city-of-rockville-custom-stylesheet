@@ -1,5 +1,5 @@
     .link-list {
-    max-width:500px;
+    width:100%;
     margin: 0 0 10px 0;
     background-color: #f5f5f5;
     padding: 20px;
@@ -10,7 +10,6 @@
     .link-title {
     color: #277ca5;
     font-weight: bold;
-    font-size: 1.2em;
     display: block;
     border-bottom: 1px solid #bdbdbd;
     border-bottom-style: dashed;
@@ -65,7 +64,7 @@
     vertical-align: middle;
     }
     .callout-blue {
-    max-width:500px;
+    width:100%;
     margin: 0 0 10px 0;
     background-color: #e5efff;
     padding: 20px;
