@@ -278,7 +278,6 @@
     overflow:hidden;
     }
     .col-callout-wrapper div {
-    min-height: 200px;
     padding: 10px;
     }
     .left-callout-col {
@@ -288,7 +287,6 @@
     }
     .right-callout-col {
     overflow:hidden;
-    min-height:170px;
     }
     @media screen and (max-width: 400px) {
     .left-col {
