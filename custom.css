@@ -328,3 +328,58 @@
     border: 1px solid #fff;
     font-weight: bold;
 }
+
+<! Newsletter Callout -->
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #999;
+  align-items: center;
+  line-height: 2;
+  border-radius: 5px;
+}
+
+.column {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .column {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 800px) {
+  ._25 {
+    flex: 2.5;
+  }
+  ._55 {
+    flex: 5.5;
+  }
+  ._20 {
+    flex: 2;
+  }
+}
+.newsletter-button {
+    background-color: #003399; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.newsletter-button:hover {
+background-color: #4c70b7;
+}
