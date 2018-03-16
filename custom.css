@@ -111,6 +111,10 @@
     padding-right: 1rem;
     padding-top: 1rem;
     position: relative;
+  display: flex;
+  flex-direction: row;
+    align-items: center;
+ 
     }
     .yellow-alert::before {
     background-color: #8b8b8b;
@@ -137,7 +141,7 @@
     }
     .yellow-alert-body {
     display: table-cell;
-    padding-left: 5rem;
+    padding-left: 2rem;
     vertical-align: top;
     }
     .yellow-alert-heading {
