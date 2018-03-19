@@ -387,3 +387,84 @@
 .newsletter-button:hover {
 background-color: #4c70b7;
 }
+
+<!-- Card Callout -->
+aside {
+  box-shadow: 0px 1px 4px rgba(0,0,0,.4);
+  margin: 8px 4px;
+  min-width: 50%;
+  max-width: 480px;
+}
+
+cta-block * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: 0;
+  outline: 0;
+}
+
+.cta-link {
+  min-height: 32px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  border: 0;
+}
+/* Card 3 */
+
+.card3 .cta-link {
+  padding: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right, #7aa3a3 0%, #e0efef 100%);
+  background-size: cover;
+  text-align: left;
+  overflow: hidden;
+}
+
+.card3 .cta-link::after {
+  content: '🏊';
+  position: absolute;
+  font-size: 12rem;
+  bottom: -5rem;
+  right: 50%;
+  margin-right: -5rem;
+  transition: right 2s;
+  opacity: .5;
+  mix-blend-mode: overlay;
+}
+
+.card3 .cta-line1 {
+  font-size: 1.5rem;
+  color: rgba(255,255,255,.5);
+}
+
+.card3 .cta-line2 {
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: -.05em;
+  font-size: 3.5rem;
+  padding: .5rem 0;
+  z-index: 1;
+}
+
+.card3 .cta-line3 {
+  text-align: right;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, rgba(0,8,128,0) 0%,rgba(204, 0, 51,1) 100%);
+  background-blend-mode: multiply;
+  padding: .5em;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.card3 span {
+  color: #ffffff;
+}
+
+.card3:hover .cta-link::after {
+  right: 100%;
+}
+
