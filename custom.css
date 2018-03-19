@@ -353,7 +353,7 @@
 }
 
 @media screen and (min-width: 800px) {
-  .column {
+  .newsletter-column {
     flex: 1;
   }
 }
