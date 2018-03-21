@@ -467,7 +467,7 @@ cta-block * {
   right: 100%;
 }
 
-.yellow-alert {
+.blue-alert {
     background-color: #f1f1f1;
     background-position: 1.8rem 1rem;
     background-repeat: no-repeat;
@@ -520,10 +520,10 @@ cta-block * {
     margin-top: 0;
     }
     .blue-alert-warning {
-    background-color: #fff1d2;
+    background-color: #ccd6ea;
     background-image: url("/images/pages/N75/alert.png");
     background-image: url("/images/pages/N75/alert.png");
     }
     .blue-alert-warning::before {
-    background-color: #fdb81e;
+    background-color: #003399;
     }
