@@ -27,14 +27,14 @@
     }
     #main-info {
     float:left;
-    padding-right: 80px;
-    width:400px;
+    padding-right: 50px;
+    width:500px;
     padding-bottom: 50px;
     }
     #contact {
     overflow:hidden;
     margin-bottom: 10px;
-    min-width:150px;
+    min-width:250px;
     }
     .contact-row {
     overflow:hidden;
