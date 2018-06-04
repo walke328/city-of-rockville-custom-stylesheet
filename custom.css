@@ -1,5 +1,5 @@
     .link-list {
-    width:80%;
+    width:95%;
     margin: 0 0 10px 0;
     background-color: #f5f5f5;
     padding: 20px;
@@ -8,18 +8,18 @@
     background-color: #d3d3d3;
     }
     .link-title {
-    color: #277ca5;
-    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: 1.17em;
+    font-weight: 700;
+    color: #287ba4;
     display: block;
     border-bottom: 1px solid #bdbdbd;
     border-bottom-style: dashed;
     padding: 0px 0px 10px 0px;
     margin: 0px 0px 15px 0px;
-    font-family: arial;
     }
     .link-description {
     color: #666666;
-    font-family: arial;
     }
     .info-wrapper {
     overflow:hidden;
@@ -63,7 +63,7 @@
     vertical-align: middle;
     }
     .callout-blue {
-    width:80%;
+    width:95%;
     margin: 0 0 10px 0;
     background-color: #e5efff;
     padding: 20px;
@@ -74,32 +74,32 @@
     .callout-title {
     color: #003399;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.17em;
     display: block;
     padding: 0px 0px 10px 0px;
     margin: 0px 0px 5px 0px;
-    font-family: arial;
+    font-family: 'Montserrat';
     }
     .callout-description {
     color: #666666;
-    font-family: arial;
+    font-family: 'Montserrat';
     }
     .primary-button {
-    background-color: #666699;
+    background-color: #547373;
     border: none;
     color: white;
     padding: 12px 22px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 1em;
     margin: 4px 2px;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
     }
     .primary-button:hover {
-    background-color: #8686c9;
+    background-color: #cc0033;
     }
     .yellow-alert {
     background-color: #f1f1f1;
@@ -149,7 +149,7 @@
     margin-bottom: 5;
     }
     .yellow-alert-text {
-    font-family: "Arial", sans-serif;
+    font-family: 'Montserrat';
     margin-bottom: 0;
     margin-top: 0;
     }
@@ -170,8 +170,10 @@
     display: inline-block;
     }
     .title-text {
-    color: #277ca5;
-    font-size: 16px;
+    font-family: 'Montserrat';
+    font-size: 1.17em;
+    font-weight: 700;
+    color: #287ba4;
     }
     .link-list-row-3:after {
     content: "";
@@ -218,8 +220,8 @@
     }
     .report-title {
     color: #000000;
-    font-size: 16px;
-    font-family: "arial";
+    font-size: 1.17em;
+    font-family: 'Montserrat";
     text-transform: uppercase;
     text-weight: bold;
     }
@@ -274,9 +276,10 @@
     width: 100px;
     }
     .title-step {
-    font-family: "arial";
-    font-size: 20px;
-    color: #277ca5
+    font-family: 'Montserrat';
+    font-size: 1.17em;
+    font-weight: 700;
+    color: #287ba4;
     }
     .col-callout-wrapper {
     overflow:hidden;
@@ -375,7 +378,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1em;
     margin: 4px 2px;
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
@@ -384,7 +387,7 @@
   font-weight: bold;
 }
 .newsletter-button:hover {
-background-color: #4c70b7;
+background-color: #cc0033;
 }
 
 <!-- Card Callout -->
@@ -426,7 +429,7 @@ cta-block * {
 .card3 .cta-link::after {
   content: '🏊';
   position: absolute;
-  font-size: 12rem;
+  font-size: 1em;
   bottom: -5rem;
   right: 50%;
   margin-right: -5rem;
@@ -436,7 +439,7 @@ cta-block * {
 }
 
 .card3 .cta-line1 {
-  font-size: 1.5rem;
+  font-size: 1.17em;
   color: rgba(255,255,255,.5);
 }
 
@@ -444,7 +447,7 @@ cta-block * {
   text-transform: uppercase;
   font-weight: 100;
   letter-spacing: -.05em;
-  font-size: 3.5rem;
+  font-size: 2emrem;
   padding: .5rem 0;
   z-index: 1;
 }
@@ -515,7 +518,7 @@ cta-block * {
     margin-bottom: 5;
     }
     .blue-alert-text {
-    font-family: "Arial", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 0;
     margin-top: 0;
     }
@@ -529,7 +532,7 @@ cta-block * {
     }
 .pullout {
     font-style: italic;
-    font-size: 16px;
+    font-size: 1.17em;
     color:#333;
     font-stretch: expanded;
 }
