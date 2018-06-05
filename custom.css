@@ -222,7 +222,7 @@
     .report-title {
     color: #000000;
     font-size: 1.17em;
-    font-family: 'Montserrat";
+    font-family: 'Montserrat';
     text-transform: uppercase;
     text-weight: bold;
     }
@@ -340,43 +340,31 @@
 <! Newsletter Callout -->
 
 .newsletter-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   padding: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #e3e7ea;
-  align-items: center;
+  text-align: center;
   line-height: 2;
   border-radius: 5px;
 }
-
+  .newsletter-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .newsletter-column {
-  flex-basis: 100%;
-}
-
-@media screen and (min-width: 800px) {
-  .newsletter-column {
-    flex: 1;
-  }
-}
-@media screen and (min-width: 800px) {
-  ._25 {
-    flex: 2.5;
-  }
-  ._55 {
-    flex: 5.5;
-  }
-  ._20 {
-    flex: 2;
-  }
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 100px;
+    min-width: 320px;
 }
 .newsletter-button {
     background-color: #003399; 
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -387,10 +375,21 @@
     cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
+  font-family: 'Montserrat';
 }
 .newsletter-button:hover {
 background-color: #cc0033;
 }
+    .img-newsletter {
+    width: 100px;
+    }
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
 
 <!-- Card Callout -->
 aside {
