@@ -431,7 +431,7 @@ cta-block * {
 .card3 .cta-link::after {
   content: '🏊';
   position: absolute;
-  font-size: 1em;
+  font-size: 12rem;
   bottom: -5rem;
   right: 50%;
   margin-right: -5rem;
@@ -441,7 +441,7 @@ cta-block * {
 }
 
 .card3 .cta-line1 {
-  font-size: 1.17em;
+  font-size: 1.17rem;
   color: rgba(255,255,255,.5);
 }
 
@@ -449,7 +449,7 @@ cta-block * {
   text-transform: uppercase;
   font-weight: 100;
   letter-spacing: -.05em;
-  font-size: 2emrem;
+  font-size: 2rem;
   padding: .5rem 0;
   z-index: 1;
 }
@@ -471,6 +471,8 @@ cta-block * {
 .card3:hover .cta-link::after {
   right: 100%;
 }
+
+<!--Blue Alert-->
 
 .blue-alert {
     background-color: #f1f1f1;
