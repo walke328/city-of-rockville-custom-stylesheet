@@ -429,7 +429,7 @@ cta-block * {
 }
 
 .card3 .cta-link::after {
-  content: '⚽️';
+  content: '🏊';
   position: absolute;
   font-size: 12rem;
   bottom: -5rem;
