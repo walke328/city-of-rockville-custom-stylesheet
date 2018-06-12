@@ -472,9 +472,17 @@ cta-block * {
   right: 100%;
 }
 
-<!--Blue Alert-->
 
-.blue-alert {
+.pullout {
+    font-style: italic;
+    font-size: 1.17em;
+    color:#333;
+    font-stretch: expanded;
+}
+
+    <!--Blue Alert-->
+
+ .blue-alert {
     background-color: #f1f1f1;
     background-position: 1.8rem 1rem;
     background-repeat: no-repeat;
@@ -501,7 +509,7 @@ cta-block * {
     .blue-alert a {
     color: #205493;
     }
-    .blue-alert a:focus, .blue-alert a:hover {
+    .blue-alert a:focus, .yellow-alert a:hover {
     color: #112e51;
     }
     .blue-alert ul {
@@ -534,10 +542,3 @@ cta-block * {
     .blue-alert-warning::before {
     background-color: #0a88cc;
     }
-.pullout {
-    font-style: italic;
-    font-size: 1.17em;
-    color:#333;
-    font-stretch: expanded;
-}
-    
