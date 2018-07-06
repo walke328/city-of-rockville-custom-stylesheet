@@ -29,6 +29,7 @@
     float:left;
     padding-right: 50px;
     width:60%;
+    min-width:300px;
     padding-bottom: 50px;
     }
     #contact {
