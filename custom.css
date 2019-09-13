@@ -10,7 +10,7 @@
   text-decoration: none;
   color: #666;
 }
-a:hover {
+div:hover {
    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
     transition: 0.5s;
 }
@@ -29,8 +29,7 @@ a:hover {
 }
 .heading {
   padding-top: 5%;
-}    
-
+}
 .link-list {
     width:95%;
     margin: 0 0 10px 0;
